@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Konecta Soluções Digitais</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <svg class="nav-logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="36" height="36" rx="8" fill="#0F0F1A"/>
+      <circle cx="13" cy="18" r="5.5" fill="none" stroke="#818CF8" stroke-width="1.2" stroke-dasharray="4 2"/>
+      <circle cx="23" cy="18" r="5.5" fill="none" stroke="#4F46E5" stroke-width="1.2" stroke-dasharray="4 2"/>
+      <circle cx="13" cy="12.5" r="1.5" fill="#818CF8"/>
+      <circle cx="23" cy="12.5" r="1.5" fill="#4F46E5"/>
+      <circle cx="7.5" cy="18" r="1.5" fill="#818CF8"/>
+      <circle cx="28.5" cy="18" r="1.5" fill="#4F46E5"/>
+      <circle cx="13" cy="23.5" r="1.5" fill="#818CF8"/>
+      <circle cx="23" cy="23.5" r="1.5" fill="#4F46E5"/>
+      <text x="10.5" y="21.5" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#818CF8">K</text>
+      <text x="19.5" y="21.5" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#ffffff">S</text>
+    </svg>
+    <span>Konecta</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+  <a href="#servicos" onclick="toggleMenu()">Serviços</a>
+  <a href="#processo" onclick="toggleMenu()">Processo</a>
+  <a href="#contato" onclick="toggleMenu()">Fale Conosco</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Soluções Digitais Sob Medida</div>
+    <h1>Transformamos Processos Empresariais em <em>Soluções Digitais Inteligentes</em></h1>
+    <p class="hero-sub">Desenvolvemos sistemas personalizados que automatizam processos, aumentam a produtividade e impulsionam o crescimento da sua empresa.</p>
+    <div class="hero-btns">
+      <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+      <a href="https://wa.me/5571987396954" class="btn-ghost" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.535 5.858L.057 23.7a.75.75 0 00.918.919l5.98-1.565A11.942 11.942 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.722 9.722 0 01-4.964-1.36l-.356-.212-3.692.967.984-3.592-.232-.369A9.722 9.722 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z" fill="currentColor"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Illustration -->
+  <div class="hero-visual">
+    <div class="hero-svg-wrap">
+      <svg viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="40" y="40" width="440" height="280" rx="16" fill="#13132A" stroke="rgba(99,102,241,0.25)" stroke-width="1.5"/>
+        <rect x="40" y="40" width="440" height="40" rx="16" fill="#1a1a35"/>
+        <rect x="40" y="64" width="440" height="16" fill="#1a1a35"/>
+        <circle cx="68" cy="60" r="6" fill="#FF5F57"/>
+        <circle cx="88" cy="60" r="6" fill="#FEBC2E"/>
+        <circle cx="108" cy="60" r="6" fill="#28C840"/>
+        <rect x="40" y="80" width="80" height="240" fill="rgba(99,102,241,0.05)" stroke="rgba(99,102,241,0.12)" stroke-width="1"/>
+        <rect x="55" y="100" width="50" height="6" rx="3" fill="rgba(99,102,241,0.4)"/>
+        <rect x="55" y="118" width="40" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+        <rect x="55" y="136" width="45" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+        <rect x="55" y="154" width="38" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+        <rect x="55" y="172" width="42" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+        <rect x="138" y="92" width="96" height="64" rx="8" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+        <rect x="150" y="104" width="35" height="5" rx="2.5" fill="rgba(255,255,255,0.25)"/>
+        <text x="150" y="147" font-family="Arial" font-size="18" font-weight="700" fill="#818CF8">+127%</text>
+        <rect x="246" y="92" width="96" height="64" rx="8" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+        <rect x="258" y="104" width="35" height="5" rx="2.5" fill="rgba(255,255,255,0.25)"/>
+        <text x="258" y="147" font-family="Arial" font-size="18" font-weight="700" fill="#a5b4fc">R$84k</text>
+        <rect x="354" y="92" width="96" height="64" rx="8" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+        <rect x="366" y="104" width="35" height="5" rx="2.5" fill="rgba(255,255,255,0.25)"/>
+        <text x="366" y="147" font-family="Arial" font-size="18" font-weight="700" fill="#c7d2fe">98%</text>
+        <rect x="138" y="170" width="200" height="100" rx="8" fill="rgba(99,102,241,0.05)" stroke="rgba(99,102,241,0.15)" stroke-width="1"/>
+        <polyline points="152,250 175,230 200,238 225,210 250,215 275,195 300,200 322,180" fill="none" stroke="#6366F1" stroke-width="2" stroke-linejoin="round"/>
+        <polyline points="152,250 175,230 200,238 225,210 250,215 275,195 300,200 322,180 322,260 152,260" fill="rgba(99,102,241,0.1)"/>
+        <rect x="350" y="170" width="100" height="100" rx="8" fill="rgba(99,102,241,0.05)" stroke="rgba(99,102,241,0.15)" stroke-width="1"/>
+        <rect x="362" y="225" width="14" height="30" rx="2" fill="#4F46E5"/>
+        <rect x="380" y="210" width="14" height="45" rx="2" fill="#6366F1"/>
+        <rect x="398" y="218" width="14" height="37" rx="2" fill="#818CF8"/>
+        <rect x="416" y="200" width="14" height="55" rx="2" fill="#a5b4fc"/>
+        <circle cx="260" cy="370" r="8" fill="#4F46E5" opacity=".9"/>
+        <circle cx="160" cy="380" r="5" fill="#6366F1" opacity=".7"/>
+        <circle cx="360" cy="375" r="5" fill="#6366F1" opacity=".7"/>
+        <circle cx="100" cy="390" r="3.5" fill="#818CF8" opacity=".5"/>
+        <circle cx="420" cy="385" r="3.5" fill="#818CF8" opacity=".5"/>
+        <line x1="260" y1="370" x2="160" y2="380" stroke="#6366F1" stroke-width="1.2" opacity=".4"/>
+        <line x1="260" y1="370" x2="360" y2="375" stroke="#6366F1" stroke-width="1.2" opacity=".4"/>
+        <line x1="160" y1="380" x2="100" y2="390" stroke="#818CF8" stroke-width="1" opacity=".3"/>
+        <line x1="360" y1="375" x2="420" y2="385" stroke="#818CF8" stroke-width="1" opacity=".3"/>
+        <line x1="260" y1="320" x2="260" y2="362" stroke="#4F46E5" stroke-width="1.2" stroke-dasharray="4 3" opacity=".5"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="sobre-grid">
+    <div class="fade-in">
+      <div class="section-eyebrow">Sobre a Konecta</div>
+      <h2 class="section-title">Especialistas em Desenvolvimento de Sistemas <em style="font-style:normal;color:var(--purple-l)">Sob Medida</em></h2>
+      <p class="section-sub">Somos uma empresa especializada no desenvolvimento de sistemas personalizados para empresas de todos os portes. Criamos soluções digitais alinhadas às necessidades do negócio, ajudando nossos clientes a otimizar processos, reduzir custos operacionais e aumentar sua eficiência.</p>
+      <div class="pilares">
+        <div class="pilar"><h4>Inovação</h4><p>Tecnologias modernas e abordagem orientada a resultados.</p></div>
+        <div class="pilar"><h4>Segurança</h4><p>Proteção de dados e boas práticas em cada linha de código.</p></div>
+        <div class="pilar"><h4>Escalabilidade</h4><p>Sistemas que crescem junto com o seu negócio.</p></div>
+        <div class="pilar"><h4>Suporte</h4><p>Atendimento especializado e acompanhamento contínuo.</p></div>
+      </div>
+    </div>
+    <div class="sobre-visual fade-in">
+      <svg viewBox="0 0 380 360" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:380px">
+        <circle cx="190" cy="180" r="140" stroke="rgba(99,102,241,0.08)" stroke-width="1"/>
+        <circle cx="190" cy="180" r="100" stroke="rgba(99,102,241,0.12)" stroke-width="1"/>
+        <circle cx="190" cy="180" r="60" stroke="rgba(99,102,241,0.18)" stroke-width="1.5"/>
+        <circle cx="190" cy="180" r="28" fill="#4F46E5" opacity=".9"/>
+        <text x="181" y="187" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#fff">KS</text>
+        <circle cx="190" cy="80" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="183" y="85" font-family="Arial" font-size="9" fill="#818CF8">⚙️</text>
+        <circle cx="280" cy="130" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="273" y="135" font-family="Arial" font-size="9" fill="#818CF8">📊</text>
+        <circle cx="280" cy="230" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="273" y="235" font-family="Arial" font-size="9" fill="#818CF8">🔗</text>
+        <circle cx="190" cy="280" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="183" y="285" font-family="Arial" font-size="9" fill="#818CF8">📱</text>
+        <circle cx="100" cy="230" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="93" y="235" font-family="Arial" font-size="9" fill="#818CF8">🛡️</text>
+        <circle cx="100" cy="130" r="14" fill="#13132A" stroke="#6366F1" stroke-width="1.5"/>
+        <text x="93" y="135" font-family="Arial" font-size="9" fill="#818CF8">💡</text>
+        <line x1="190" y1="152" x2="190" y2="94" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+        <line x1="215" y1="162" x2="267" y2="140" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+        <line x1="215" y1="198" x2="267" y2="220" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+        <line x1="190" y1="208" x2="190" y2="266" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+        <line x1="165" y1="198" x2="113" y2="220" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+        <line x1="165" y1="162" x2="113" y2="140" stroke="#6366F1" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="servicos" id="servicos">
+  <div class="section-head fade-in">
+    <div class="section-eyebrow">O que fazemos</div>
+    <h2 class="section-title">Nossas Soluções</h2>
+    <p class="section-sub">Do planejamento à entrega, desenvolvemos sistemas que resolvem problemas reais do seu negócio.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card fade-in">
+      <div class="service-icon">🖥️</div>
+      <h3>Desenvolvimento de Sistemas Web</h3>
+      <p>Sistemas corporativos, ERPs, CRMs, estoque e plataformas personalizadas para o seu negócio.</p>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon">⚙️</div>
+      <h3>Automação de Processos</h3>
+      <p>Automatização de tarefas repetitivas e fluxos operacionais para ganho de tempo e redução de erros.</p>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon">🔗</div>
+      <h3>Integrações de Sistemas</h3>
+      <p>Conectamos diferentes plataformas através de APIs e integrações inteligentes e seguras.</p>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon">📱</div>
+      <h3>Aplicativos Mobile</h3>
+      <p>Apps nativos e híbridos para iOS e Android, com foco em usabilidade e performance.</p>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon">📊</div>
+      <h3>Dashboards e Business Intelligence</h3>
+      <p>Painéis gerenciais com indicadores estratégicos em tempo real para decisões mais assertivas.</p>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon">🛡️</div>
+      <h3>Manutenção e Suporte</h3>
+      <p>Monitoramento, melhorias contínuas e suporte especializado para o seu sistema sempre disponível.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO -->
+<section class="processo" id="processo">
+  <div class="section-head fade-in" style="text-align:center;margin:0 auto 3rem;">
+    <div class="section-eyebrow">Como trabalhamos</div>
+    <h2 class="section-title">Nosso Processo</h2>
+    <p class="section-sub" style="margin:0 auto;">Da ideia ao produto final com metodologia clara e transparente.</p>
+  </div>
+  <div class="steps">
+    <div class="step fade-in">
+      <div class="step-num">01</div>
+      <h4>Diagnóstico</h4>
+      <p>Entendemos profundamente os processos e desafios do seu negócio.</p>
+    </div>
+    <div class="step fade-in">
+      <div class="step-num">02</div>
+      <h4>Planejamento</h4>
+      <p>Definimos escopo, arquitetura e cronograma alinhados às suas metas.</p>
+    </div>
+    <div class="step fade-in">
+      <div class="step-num">03</div>
+      <h4>Desenvolvimento</h4>
+      <p>Construímos com sprints ágeis, entregando valor a cada etapa.</p>
+    </div>
+    <div class="step fade-in">
+      <div class="step-num">04</div>
+      <h4>Entrega e Suporte</h4>
+      <p>Implantamos, treinamos sua equipe e acompanhamos continuamente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="contato">
+  <div class="fade-in">
+    <h2>Pronto para transformar sua empresa?</h2>
+    <p>Fale com nossos especialistas e descubra como um sistema sob medida pode acelerar o seu crescimento.</p>
+    <div class="cta-btns">
+      <a href="mailto:Klebsontechba@gmail.com" class="btn-primary">Solicitar Orçamento</a>
+      <a href="https://wa.me/5571987396954" class="btn-ghost" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.535 5.858L.057 23.7a.75.75 0 00.918.919l5.98-1.565A11.942 11.942 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.722 9.722 0 01-4.964-1.36l-.356-.212-3.692.967.984-3.592-.232-.369A9.722 9.722 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <a href="#" class="nav-logo" style="text-decoration:none">
+      <svg width="32" height="32" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#0F0F1A"/><circle cx="13" cy="18" r="5.5" fill="none" stroke="#818CF8" stroke-width="1.2" stroke-dasharray="4 2"/><circle cx="23" cy="18" r="5.5" fill="none" stroke="#4F46E5" stroke-width="1.2" stroke-dasharray="4 2"/><circle cx="13" cy="12.5" r="1.5" fill="#818CF8"/><circle cx="23" cy="12.5" r="1.5" fill="#4F46E5"/><circle cx="7.5" cy="18" r="1.5" fill="#818CF8"/><circle cx="28.5" cy="18" r="1.5" fill="#4F46E5"/><circle cx="13" cy="23.5" r="1.5" fill="#818CF8"/><circle cx="23" cy="23.5" r="1.5" fill="#4F46E5"/><text x="10.5" y="21.5" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#818CF8">K</text><text x="19.5" y="21.5" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#ffffff">S</text></svg>
+      <span style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;color:#F0F0FF">Kon<span style="color:#818CF8">ecta</span></span>
+    </a>
+    <p>Desenvolvemos sistemas personalizados que transformam processos empresariais em soluções digitais inteligentes.</p>
+  </div>
+  <div class="footer-col">
+    <h5>Serviços</h5>
+    <ul>
+      <li><a href="#servicos">Sistemas Web</a></li>
+      <li><a href="#servicos">Automação</a></li>
+      <li><a href="#servicos">Integrações</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h5>Empresa</h5>
+    <ul>
+      <li><a href="#sobre">Sobre nós</a></li>
+      <li><a href="#processo">Nosso processo</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="https://wa.me/5571987396954">WhatsApp</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p>© 2026 Konecta Soluções Digitais. Todos os direitos reservados.</p>
+  <p style="color:var(--muted);font-size:.82rem">Klebsontechba@gmail.com</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
